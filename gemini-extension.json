@@ -1,0 +1,19 @@
+{
+  "name": "task-mafia",
+  "version": "0.1.0",
+  "description": "Read selected Task Mafia lists, capture tasks and shopping items, and propose changes for human review.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "task-mafia": {
+      "httpUrl": "https://taskmafia.com/mcp",
+      "oauth": { "enabled": true, "scopes": ["mcp:tasks", "offline_access"] },
+      "includeTools": [
+        "get_connection_status", "get_language_guide", "list_projects", "get_project",
+        "list_tasks", "get_task_brief", "capture_task", "capture_items",
+        "propose_changes", "propose_task_move", "list_list_proposals",
+        "propose_list_creation", "propose_list_update", "organize_shopping_items",
+        "submit_feedback"
+      ]
+    }
+  }
+}

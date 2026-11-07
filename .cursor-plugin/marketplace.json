@@ -1,0 +1,5 @@
+{
+  "name": "task-mafia",
+  "owner": { "name": "Richard Moore", "email": "hello@taskmafia.com" },
+  "plugins": [{ "name": "task-mafia", "source": "." }]
+}

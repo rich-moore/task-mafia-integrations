@@ -1,0 +1,13 @@
+{
+  "name": "task-mafia",
+  "displayName": "Task Mafia",
+  "version": "0.1.0",
+  "description": "Read selected Task Mafia lists, capture tasks and shopping items, and propose changes for human review.",
+  "author": { "name": "Richard Moore", "email": "hello@taskmafia.com" },
+  "homepage": "https://taskmafia.com",
+  "repository": "https://github.com/rich-moore/task-mafia-integrations",
+  "keywords": ["tasks", "lists", "shopping", "productivity", "mcp"],
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
